@@ -1,3 +1,14 @@
+//   firstly run in terminal - npx create-react-app@5.0.1  //
+//   then  run - npm i //
+//   then delete the src file and download my src file instead of original //
+//   npm start for run the program //
+
+
+
+
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
