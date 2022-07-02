@@ -1,0 +1,129 @@
+*{
+  margin: 0;
+  padding: 0;
+  color:white;
+  box-sizing: border-box;
+  font-family: cursive;
+}
+body{
+  background-color: rgba(68, 5, 85, 0.986);
+}
+.main_container{
+  /* border: 3px solid red; */
+  text-align: center;
+  width:30%;
+
+  height:560px;
+  display: flex;
+  flex-direction: column;
+  border-radius: 8px;
+  margin: 50px auto;
+  background-color: rgb(138, 11, 155);
+  box-shadow: -2px 3px 14px  rgb(10, 1, 12);
+}
+.main_container:hover{
+  box-shadow: 2px 3px 15px white;
+  background-color: rgb(116, 19, 116);
+
+
+}
+h1{
+  background-color: rgb(228, 201, 225);
+  font-weight: 30px;
+  font-size:50px ;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  color:rgb(17, 13, 13);
+}
+input{
+  color:black;
+  padding:12px 32px 14px 16px;
+  width:50%;
+  outline:none;
+  background-color: rgb(228, 240, 240);
+  border-radius: 5px;
+  font-family: cursive;
+  color: rgb(20, 6, 6);
+ 
+}
+.input{
+  /* border:2px solid blue; */
+  margin:12px auto;
+  
+ 
+}
+button{
+  background-color: red;
+  padding:12px;
+  font-size: larger;
+  margin-left:40px;
+  font-weight: 28px;
+  border-radius: 6px;
+}
+.todo_style button:hover{
+  background-color: rgb(36, 5, 4);
+  /* box-shadow: 1px 2px 5px rgb(219, 219, 231); */
+}
+.todo_style{
+  /* border:3px solid yellow; */
+  display:flex;
+  background-color: rgb(86, 7, 110);
+  justify-content: space-around;
+  width: 98%;
+  border-radius: 6px;
+  margin: 10px auto;
+  align-items: center;
+  flex-direction: row;
+  position: relative;
+}
+.todo_style:hover{
+  background-color: rgb(58, 9, 87);
+  color:black;
+  /* font-color:white; */
+  box-shadow: 2px 1px 6px white;
+
+}
+
+li{
+  /* border:3px solid green; */
+  width:50%;
+  font-size: 20px;
+  color:white;
+ 
+  
+}
+#button{
+  padding:14px;
+  width:22%;
+  border: none;cursor: pointer;
+  border-radius:  0 6px 6px 0;
+  outline: none;
+  /* background:linear-gradient(
+    90deg,rgb(243, 67, 96),rgb(240, 54, 7)
+  ); */
+  background-color: red;
+}
+.todo_style button{
+  /* border: 2px solid red; */
+  background-color: rgb(3, 18, 59);
+  padding:10px;
+  border: none;
+  cursor: pointer;
+  display:inline-block;
+  margin-left:70px;
+  outline: none;
+  
+ 
+}
+#button:hover{
+  background-color:green;
+  box-shadow: 0 5px 5px rgb(216, 221, 212);
+  
+
+}
+/* .list{
+  border:3px solid red;
+} */
+ol{
+  /* border:3px solid black; */
+  margin:43px auto;
+}
